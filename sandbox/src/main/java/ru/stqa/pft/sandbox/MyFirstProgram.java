@@ -18,13 +18,13 @@ public class MyFirstProgram {
     /*Point p1 = new Point (0, 0);
     Point p2 = new Point (3, 3);
     System.out.println("Расстояние между точками = " + length1(p1, p2));
-    */
+
 
     Point p1 = new Point(1 , 1);
     Point p2 = new Point(3 , 3);
     Distance d1 = new Distance(p1, p2);
     Distance d = new Distance((1, 1), (2, 2));
-    System.out.println("Расстояние между точками = " + length1(d));
+    System.out.println("Расстояние между точками = " + length1(d)); */
 
   }
 
