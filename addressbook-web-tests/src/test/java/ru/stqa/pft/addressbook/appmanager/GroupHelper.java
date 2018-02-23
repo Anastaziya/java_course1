@@ -36,10 +36,18 @@ public class GroupHelper {
   }
 
   public void deleteSelectedGroups() {
-      wd.findElement(By.name("delete")).click();
+    wd.findElement(By.name("delete")).click();
   }
 
   public void selectGroup() {
-      wd.findElement(By.name("selected[]")).click();
+    wd.findElement(By.name("selected[]")).click();
+  }
+
+  public void initGroupModification() {
+    wd.findElement(By.name("edit")).click();
+  }
+
+  public void submitGroupModification() {
+    wd.findElement(By.name("update")).click();
   }
 }
