@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.BrowserType;
 
 public class TestBase {
 
-  protected final ApplicationManager app = new ApplicationManager(BrowserType.IE);
+  protected final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
 
 
   @BeforeMethod
@@ -15,9 +15,8 @@ public class TestBase {
     app.init();
   }
 
-  @AfterMethod
+ @AfterMethod
   public void tearDown() {
     app.stop();
   }
-
 }
